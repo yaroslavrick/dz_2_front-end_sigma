@@ -5,6 +5,13 @@
   src: url('../fonts/google_sans/GoogleSans-Regular.ttf') format('truetype');
 }
 
+// @font-face {
+//   font-family: 'Poppins Bold';
+//   src: url('../fonts/poppins/Poppins-Bold.ttf') format('truetype');
+// }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Volkhov:wght@700&display=swap');
 // USAGE
 body {
   font-family: $main_font_family;

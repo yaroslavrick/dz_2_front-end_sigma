@@ -1,3 +1,58 @@
-p {
-  text-transform: capitalize;
+.main {
+  .main-container {
+    .main-text-content {
+      .tagline {
+        .tagline-text {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 30px;
+          text-transform: uppercase;
+          color: #df6951;
+        }
+      }
+      .heading {
+        .heading-text {
+          font-family: 'Volkhov';
+          font-style: normal;
+          font-weight: 700;
+          // font-size: 84px;
+          // line-height: 89px;
+          letter-spacing: -0.04em;
+          color: #181e4b;
+        }
+      }
+      .desc {
+        .desc-text {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 30px;
+          color: #5e6282;
+        }
+      }
+      .buttons-container {
+        @include flexible();
+        flex-direction: row;
+        .main-container-button {
+        }
+        .play-circle_button-container {
+          .play-circle_button-img {
+          }
+        }
+        .buttons-container__title {
+          .buttons-container__text {
+          }
+        }
+      }
+    }
+    .main-picture-container {
+      .main-picture-img {
+      }
+      .main-decore-image {
+      }
+    }
+  }
 }
