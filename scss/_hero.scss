@@ -1,5 +1,14 @@
 .hero {
   background-image: no-repeat url('../img/decore.png');
+  background: transparent;
   background-position: left 89.64677222898904vh top -18.148599269183922vh;
   background-size: 93.33861144945189vh 106.28258221680878vh;
+}
+
+@media (min-width: 480px) {
+  .hero {
+    background-image: no-repeat url('../img/decore.png');
+    background-position: left 89.64677222898904vh top -18.148599269183922vh;
+    background-size: 93.33861144945189vh 106.28258221680878vh;
+  }
 }

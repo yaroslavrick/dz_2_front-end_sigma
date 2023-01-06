@@ -51,10 +51,18 @@ img {
 
 .hero {
   background-image: no-repeat url("../img/decore.png");
+  background: transparent;
   background-position: left 89.646772229vh top -18.1485992692vh;
   background-size: 93.3386114495vh 106.2825822168vh;
 }
 
+@media (min-width: 480px) {
+  .hero {
+    background-image: no-repeat url("../img/decore.png");
+    background-position: left 89.646772229vh top -18.1485992692vh;
+    background-size: 93.3386114495vh 106.2825822168vh;
+  }
+}
 .header {
   padding: 5px;
 }
@@ -190,10 +198,20 @@ img {
   width: 106.25vw;
   height: 159.17vh;
 }
+.main .main-container .main-picture-container .main-picture__traveler {
+  position: absolute;
+}
 .main .main-container .main-picture-container .main_picture__plain_left {
-  position: relative;
+  position: absolute;
   width: 23.18vw;
-  height: 31.94vh;
-  top: 7.78vw;
+  height: 21.3vw;
   left: 18.47vw;
+  top: 273vw;
+}
+.main .main-container .main-picture-container .main_picture__plain_right {
+  position: absolute;
+  width: 23.18vw;
+  height: 21.3vw;
+  left: 85.69vw;
+  top: 290vw;
 }/*# sourceMappingURL=index.css.map */
