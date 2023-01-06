@@ -5,11 +5,6 @@
   src: url('../fonts/google_sans/GoogleSans-Regular.ttf') format('truetype');
 }
 
-// @font-face {
-//   font-family: 'Poppins Bold';
-//   src: url('../fonts/poppins/Poppins-Bold.ttf') format('truetype');
-// }
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Volkhov:wght@700&display=swap');
 // USAGE
@@ -18,7 +13,7 @@ body {
   font-family: $main_font_family;
   font-weight: $main_font_weight;
   font-size: 17px;
-  background: $background-color;
+  background-color: $background-color;
   color: $main_color;
 }
 
@@ -27,20 +22,16 @@ li {
   list-style: none;
 }
 
-.wrapper {
+.page-wrapper {
   max-width: 320px;
   width: 100%;
   margin: 0 auto;
-  background: var(--primary-color);
 }
 
 /* обмежую елементи по ширині */
 .container {
   max-width: 320px;
   margin: auto;
-}
-
-#page-wrapper {
 }
 
 p {

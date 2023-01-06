@@ -1,27 +1,23 @@
 .header {
   padding: 5px;
-  width: 300px;
-  max-width: 300px;
   .header-container {
     .header-container__navbar {
       @include flexible();
       justify-content: space-between;
       .header-brand {
-        width: 115px;
+        width: 114.91px;
 
         .header-brand-img-container {
           .header-brand-img {
-            width: 115px;
-            height: 34px;
+            width: 114.91px;
+            height: 33.99px;
           }
         }
       }
       .navbar_list-items {
         @include flexible();
         @include flexible-column();
-        // justify-content: right;
-        // text-align: right;
-        align-items: end;
+        align-items: flex-end;
 
         .navbar-item-text {
           .navbar-item-text__details {

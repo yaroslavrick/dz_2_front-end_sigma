@@ -7,7 +7,7 @@
           font-style: normal;
           font-weight: 700;
           font-size: 20px;
-          line-height: 30px;
+          line-height: 6.25vh;
           text-transform: uppercase;
           color: #df6951;
         }
@@ -17,8 +17,8 @@
           font-family: 'Volkhov';
           font-style: normal;
           font-weight: 700;
-          // font-size: 84px;
-          // line-height: 89px;
+          font-size: 11.67vw;
+          line-height: 18.54vh;
           letter-spacing: -0.04em;
           color: #181e4b;
         }
@@ -29,29 +29,73 @@
           font-style: normal;
           font-weight: 500;
           font-size: 16px;
-          line-height: 30px;
+          line-height: 6.25vh;
           color: #5e6282;
         }
       }
       .buttons-container {
         @include flexible();
-        flex-direction: row;
+        flex-direction: column;
         .main-container-button {
-        }
-        .play-circle_button-container {
-          .play-circle_button-img {
+          // position: absolute;
+          width: 170px;
+          height: 12.5vh;
+          background: #f1a501;
+          box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+          border-radius: 10px;
+          .main-container-button__text {
+            font-family: 'Google Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2.5vw;
+            line-height: 4.79vh;
+            text-align: center;
+            color: #ffffff;
           }
         }
-        .buttons-container__title {
-          .buttons-container__text {
+        .buttons__play-button_container {
+          width: 165px;
+          height: 10.83vh;
+          @include flexible();
+          flex-direction: row;
+          .play-circle_button-container {
+            .play-circle_button-img {
+              width: 52px;
+              height: 52px;
+            }
+          }
+          .buttons-container__title {
+            .buttons-container__text {
+              width: 12.78vw;
+              height: 5.42vh;
+              font-family: 'Poppins';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 17px;
+              line-height: 5.42vh;
+              color: #686d77;
+            }
           }
         }
       }
     }
     .main-picture-container {
-      .main-picture-img {
+      width: 106.25vw;
+      height: 159.17vh;
+      .main-picture__traveler {
       }
-      .main-decore-image {
+      .main_picture__plain_left {
+        position: relative;
+        // width: 166.87px;
+        // height: 153.33px;
+        width: 23.18vw;
+        height: 31.94vh;
+        top: 7.78vw;
+        left: 18.47vw;
+
+        // transform: matrix(0.89, -0.85, 0.32, 0.8, 0, 0);
+      }
+      .main_picture__plain_right {
       }
     }
   }
