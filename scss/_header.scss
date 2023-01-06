@@ -1,0 +1,27 @@
+.header {
+  padding: 5px;
+  width: 300px;
+  max-width: 300px;
+
+  .header-container__navbar {
+    @include flexible();
+    justify-content: space-between;
+  }
+
+  .header-brand {
+    width: 115px;
+  }
+
+  .navbar_list-items {
+    @include flexible();
+    @include flexible-column();
+    // justify-content: right;
+    // text-align: right;
+    align-items: end;
+
+    .navbar-item-text {
+      .navbar-item-text__details {
+      }
+    }
+  }
+}

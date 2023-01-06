@@ -1,0 +1,53 @@
+@use 'sass:meta';
+
+@font-face {
+  font-family: 'Google Sans Regular';
+  src: url('../fonts/google_sans/GoogleSans-Regular.ttf') format('truetype');
+}
+
+// USAGE
+body {
+  font-family: $main_font_family;
+  font-family: $main_font_family;
+  font-weight: $main_font_weight;
+  font-size: 17px;
+  background: $background-color;
+  color: $main_color;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  background: var(--primary-color);
+}
+
+/* обмежую елементи по ширині */
+.container {
+  max-width: 320px;
+  margin: auto;
+}
+
+#page-wrapper {
+}
+
+p {
+  text-align: justify;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* підлаштовую картинки під зовнішній контейнер */
+img {
+  display: block;
+  width: 100%;
+}
