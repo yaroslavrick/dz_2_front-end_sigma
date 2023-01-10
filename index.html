@@ -11,80 +11,72 @@
 </head>
 
 <body>
-    <div class="page-wrapper">
-        <div class="hero">
-            <header id="header" class="header">
-                <div class="header-container">
-                    <div class="header-container__navbar">
-                        <div class="header-brand">
-                            <div class="header-brand-img-container">
-                                <a class="navbar-brand" href="#">
-                                    <img class="header-brand-img" src="./img/logo.png" alt="Jaboo Logo">
-                                </a>
-                            </div>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-container">
+                <div class="header-container__navbar">
+                    <div class="header-brand">
+                        <div class="header-brand-img-container">
+                            <a class="navbar-brand" href="#">
+                                <img class="header-brand-img" src="./img/logo.png" alt="Jaboo Logo">
+                            </a>
                         </div>
-                        <div class="navbar_list-items">
-                            <span class="navbar-item-text"><a class="link">Destinations</a></span>
-                            <span class="navbar-item-text"><a class="link">Hotels</a></span>
-                            <span class="navbar-item-text"><a class="link">Flights</a></span>
-                            <span class="navbar-item-text"><a class="link">Bookings</a></span>
-                            <span class="navbar-item-text"><a class="link">Flights</a></span>
-                            <span class="navbar-item-text"><a class="link">Login</a></span>
-                            <span class="navbar-item-text" id="sign-up"><a class="link">Sign Up</a></span>
-                            <div class="navbar-item-text" id="lang_choose">
+                    </div>
+                    <nav class="header-navbar">
+                        <ul class="header-navbar-list">
+                            <li class="header-navbar-list__text"><a href="" class="link">Destinations</a></li>
+                            <li class="header-navbar-list__text"><a href="" class="link">Hotels</a></li>
+                            <li class="header-navbar-list__text"><a href="" class="link">Flights</a></li>
+                            <li class="header-navbar-list__text"><a href="" class="link">Bookings</a></li>
+                            <li class="header-navbar-list__text"><a href="" class="link">Flights</a></li>
+                            <li class="header-navbar-list__text"><a href="" class="link">Login</a></li>
+                            <li class="header-navbar-list__text"><a href="" class="link">Sign Up</a></li>
+                            <li class="header-navbar-list__text" id="lang_choose">
                                 <details class="navbar-item-text__details">
                                     <summary>EN</summary>
-                                    <summary>UA</summary>
-                                    <summary>PL</summary>
+                                    <div class="summary-options">
+                                        <summary>UA</summary>
+                                        <summary>PL</summary>
+                                    </div>
                                 </details>
-                            </div>
-                        </div>
-                    </div>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-            </header>
-            <main class="main">
-                <div class="main-container">
-                    <div class="main-text-content">
-                        <div class="tagline">
-                            <span class="tagline-text">Best Destinations around the world</span>
-                        </div>
-
-                        <div class="heading">
-                            <h1 class="heading-text">
-                                Travel, enjoy and live a new and full life
-                            </h1>
-                        </div>
-                        <div class="desc">
-                            <span class="desc-text">Built Wicket longer admire do barton vanity itself do in it.
-                                Preferred
-                                to sportsmen it
-                                engrossed
-                                listening. Park gate sell they west hard for the.</span>
-                        </div>
-
-                        <div class="buttons-container">
-                            <button class="main-container-button"><span class="main-container-button__text">Find out
-                                    more</span></button>
-                            <div class="buttons__play-button_container">
-                                <div class="play-circle_button-container">
-                                    <img src="./img/play_button_centered.png" class="play-circle_button-img">
-                                </div>
-                                <div class="buttons-container__title">
-                                    <span class="buttons-container__text">Play demo</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="main-picture-container">
-                        <img src="./img/girl_with_backpack.png" class="main-picture_traveler"
-                            alt="Traveler with backpack">
-                        <img src="./img/plane.png" class="main_picture__plain_left" alt="Plain">
-                        <img src="./img/plane.png" class="main_picture__plain_right" alt="Plain">
-                    </div>
-                </div>
-            </main>
+            </div>
         </div>
-        <!-- <section class="services">
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main-container">
+                <div class="main-text-content">
+                    <p class="tagline-text">Best Destinations around the world</p>
+                    <h1 class="heading-text">
+                        Travel, enjoy and live a new and full life
+                    </h1>
+                    <p class="desc-text">Built Wicket longer admire do barton vanity itself do in it.
+                        Preferred
+                        to sportsmen it
+                        engrossed
+                        listening. Park gate sell they west hard for the.
+                    </p>
+                </div>
+                <div class="buttons-container">
+                    <button class="main-container-button" type="button">Find out more</button>
+                    <div class="buttons__play-button_container">
+                        <img src="./img/play_button_centered.png" class="play-circle_button-img">
+                        <p class="buttons-container__text">Play demo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-picture-container">
+                <img src="./img/girl_with_backpack.png" class="main-picture__traveler" alt="Traveler with backpack">
+                <img src="./img/plane_without_rotation.png" class="main_picture__plain_left" alt="Plain">
+                <img src="./img/plane_without_rotation.png" class="main_picture__plain_right" alt="Plain">
+            </div>
+        </div>
+    </main>
+    <!-- <section class="services">
             <div class="services__header">
                 <div class="services__text-container">
                     <h3 class="services__text">CATEGORY</h3>
@@ -147,13 +139,13 @@
             </div>
 
         </section> -->
-        <!-- <section class="destinations"></section>
+    <!-- <section class="destinations"></section>
         <section class="book_a_trip"></section>
         <section class="testimonials"></section>
         <section class="logos"></section>
         <section class="subscribe"></section>
         <section class="footer"></section> -->
-    </div>
+    <!-- </div> -->
 </body>
 
 </html>

@@ -11,3 +11,13 @@
 @mixin flexible-row() {
   flex-direction: row;
 }
+
+@mixin plain() {
+  position: absolute;
+  width: 64px;
+  transform: rotate(-31.84deg);
+  @media (min-width: 480px) {
+    width: 137px;
+    height: 95px;
+  }
+}

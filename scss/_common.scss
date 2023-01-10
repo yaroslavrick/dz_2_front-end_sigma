@@ -7,7 +7,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Volkhov:wght@700&display=swap');
-// USAGE
+
 body {
   font-family: $main_font_family;
   font-family: $main_font_family;
@@ -15,6 +15,7 @@ body {
   font-size: 17px;
   background-color: $background-color;
   color: $main_color;
+  align-items: center;
 }
 
 ul,
@@ -22,16 +23,15 @@ li {
   list-style: none;
 }
 
-.page-wrapper {
-  max-width: 320px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 /* обмежую елементи по ширині */
 .container {
   max-width: 320px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 0 10px;
+  @media (min-width: 480px) {
+    max-width: 1160px;
+    padding: 0;
+  }
 }
 
 p {
