@@ -1,7 +1,7 @@
 .header {
   padding-top: 6.53vw;
+  padding-bottom: 18px;
   width: 100%;
-  border: solid 1px red;
   &::after {
     @media (min-width: 480px) {
       content: '';

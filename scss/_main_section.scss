@@ -1,12 +1,9 @@
 .main {
   .container {
     @media (min-width: 480px) {
-      border: solid 1px red;
       @include flexible();
       position: relative;
     }
-
-    padding-top: 2.5vw;
     .main-container {
       @media (min-width: 480px) {
         @include flexible();
@@ -103,6 +100,11 @@
       @media (min-width: 480px) {
         width: 765px;
         margin-left: auto;
+        &:hover .main_picture__plain_left {
+          transform: translate(700%, -300%) scale(2);
+          transition: transform 3.1s cubic-bezier(0.27, 0.8, 0.89, 0.62);
+          z-index: 5;
+        }
       }
       .main-picture__traveler {
         width: 280px;
@@ -114,11 +116,16 @@
       }
       .main_picture__plain_left {
         @include plain();
-        left: 49px;
-        top: 17px;
+        left: 145px;
+        top: 94px;
         @media (min-width: 480px) {
-          left: 143px;
-          top: 89px;
+          &:hover,
+          &:focus {
+            transform: rotate(-31.84deg);
+            transform: translate(60%, 22%) scale(1);
+            transition: transform 3.1s cubic-bezier(0.27, 0.8, 0.89, 0.62);
+          }
+          z-index: 4;
         }
       }
       .main_picture__plain_right {
