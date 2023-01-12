@@ -4,40 +4,44 @@
   @media (min-width: 480px) {
     position: relative;
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       top: 105px;
       right: -110px;
       width: 153px;
       height: 166px;
-      background-image: url("../img/plus.png");
+      background-image: $background-image;
     }
   }
 }
+
 .text {
-  font-family: "Poppins";
-  font-weight: 600;
+  font-family: tagline_font_family;
+  font-weight: $text_font_weight;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
-  color: #5e6282;
+  color: text_color;
 }
+
 .title {
-  font-family: "Volkhov";
-  font-weight: 700;
+  font-family: $headings_font_family;
+  font-weight: $headings_font_weight;
   font-size: 50px;
   line-height: 1.28;
   text-align: center;
   text-transform: capitalize;
-  color: #14183e;
+  color: $title_color;
   margin-top: 10px;
 }
+
 .list {
   margin-top: 66px;
   @media (min-width: 480px) {
     display: flex;
   }
 }
+
 .item {
   width: 267px;
   height: 314px;
@@ -46,14 +50,14 @@
   padding-top: 40px;
   padding-bottom: 45px;
   &:hover::before {
-    content: "";
+    content: '';
     position: absolute;
     bottom: -35px;
     left: -35px;
     z-index: -1;
     width: 100px;
     height: 100px;
-    background: #df6951;
+    background: $on_hover_color;
     border-radius: 30px 0px 10px;
   }
   @media (min-width: 480px) {
@@ -65,32 +69,26 @@
   &:hover,
   &:focus {
     position: relative;
-    background-color: #ffffff;
-    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
-      0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
-      0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
-      0px 20px 13px rgba(0, 0, 0, 0.01),
-      0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
-      0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    background-color: $background-color;
+    box-shadow: $main_box_shadow;
     border-radius: 36px;
   }
   &-title {
-    font-family: "Open Sans";
-    font-weight: 600;
+    font-family: $secondary_title_font_family;
+    font-weight: $text_font_weight;
     font-size: 20px;
     line-height: 1.35;
     text-align: center;
-    color: #1e1d4c;
+    color: $secondary_title_color;
     margin-top: 29px;
   }
   &-text {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 500;
+    font-family: $tagline_font_family;
+    font-weight: $tagline_font_weight;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    color: #5e6282;
+    color: $text_color;
     margin: 0 auto;
     margin-top: 15px;
     width: 181px;

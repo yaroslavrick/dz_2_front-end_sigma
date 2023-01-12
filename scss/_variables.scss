@@ -1,9 +1,32 @@
 $main-color: rgb(122, 78, 42);
 $border: 4px dashed grey;
+
 $main_font_family: Google Sans Regular, sans-serif;
+$tagline_font_family: Poppins;
+$headings_font_family: Volkhov;
+$secondary_title_font_family: Open Sans, sans-serif;
+
+$headings_font_weight: 700;
+$text_font_weight: 600;
+$tagline_font_weight: 500;
 
 $background-color: #fff;
+$secondary-background-color: #fff1da;
 $main_font_size: 17px;
 $main_font_weight: 400;
 $main_color: #212832;
+$text_color: #5e6282;
+$title_color: #14183e;
+$secondary_title_color: #1e1d4c;
 $main_font_weight: 400;
+$secondary_color: #f1a501;
+$on_hover_color: #df6951;
+
+$main_box_shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+  0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+  0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+  0px 20px 13px rgba(0, 0, 0, 0.01),
+  0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+  0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+
+$background-image: url('../img/plus.png');

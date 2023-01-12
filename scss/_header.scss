@@ -17,10 +17,6 @@
   }
 
   .header-container {
-    // @media (min-width: 480px) {
-    //   width: 1160px;
-    //   height: 40px;
-    // }
     .header-container__navbar {
       @include flexible();
       justify-content: space-between;
@@ -45,7 +41,6 @@
         .header-navbar-list {
           @media (min-width: 480px) {
             @include flexible();
-            // gap: 6.94vw;
           }
         }
         .header-navbar-list__text {
@@ -65,7 +60,7 @@
           }
           .link {
             text-decoration: none;
-            color: #212832;
+            color: $main_color;
           }
           .navbar-item-text__details {
             position: relative;
@@ -74,12 +69,12 @@
               position: absolute;
               right: 54px;
               bottom: -42px;
-              background-color: white;
+              background-color: $background-color;
               box-shadow: 5px 2px 17px 3px;
               @media (min-width: 480px) {
                 right: -2px;
                 bottom: -42px;
-                background-color: #fff1da;
+                background-color: $secondary-background-color;
               }
             }
           }

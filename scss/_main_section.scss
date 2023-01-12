@@ -17,8 +17,8 @@
           margin-top: 130px;
         }
         .tagline-text {
-          font-family: 'Poppins';
-          font-weight: 700;
+          font-family: $tagline_font_family;
+          font-weight: $headings_font_weight;
           font-size: 14px;
           line-height: 1.5;
           text-transform: uppercase;
@@ -28,8 +28,8 @@
           }
         }
         .heading-text {
-          font-family: 'Volkhov';
-          font-weight: 700;
+          font-family: $headings_font_family;
+          font-weight: $headings_font_weight;
           font-size: 11.67vw;
           line-height: 1.05952381;
           letter-spacing: -0.04em;
@@ -40,9 +40,8 @@
           }
         }
         .desc-text {
-          font-family: 'Poppins';
-          font-style: normal;
-          font-weight: 500;
+          font-family: $tagline_font_family;
+          font-weight: $tagline_font_weight;
           font-size: 16px;
           line-height: 1.875;
           color: #5e6282;
@@ -60,12 +59,11 @@
           flex-direction: row;
         }
         .main-container-button {
-          // width: 170px;
           height: 60px;
           padding: 0 27px;
-          background-color: #f1a501;
-          font-family: 'Google Sans';
-          font-weight: 500;
+          background-color: $secondary_color;
+          font-family: $main_font_family;
+          font-weight: $tagline_font_weight;
           font-size: 18px;
           line-height: 1.28;
           text-align: center;
@@ -83,9 +81,8 @@
             width: 100px;
           }
           .buttons-container__text {
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 500;
+            font-family: $tagline_font_family;
+            font-weight: $tagline_font_weight;
             font-size: 17px;
             line-height: 1.53;
             color: #686d77;
